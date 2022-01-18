@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.e54aaff5.css",
-    "main.js": "/personal-website/static/js/main.832ce9bd.js",
+    "main.css": "/personal-website/static/css/main.f972344c.css",
+    "main.js": "/personal-website/static/js/main.249e67f5.js",
     "static/js/787.1d583568.chunk.js": "/personal-website/static/js/787.1d583568.chunk.js",
+    "static/media/mongoose.png": "/personal-website/static/media/mongoose.998152e4bc5fdd366c2c.png",
+    "static/media/firebase.png": "/personal-website/static/media/firebase.49bc623ca721e1db5805.png",
+    "static/media/react.png": "/personal-website/static/media/react.6ab7e2e9a04e78b4e9c6.png",
+    "static/media/jest.png": "/personal-website/static/media/jest.809768de8350fa5f6a21.png",
+    "static/media/webpack.png": "/personal-website/static/media/webpack.73f95c1c299540c84e4b.png",
+    "static/media/next.png": "/personal-website/static/media/next.05fd2c22a83595e9595f.png",
+    "static/media/mongodb.png": "/personal-website/static/media/mongodb.abda074030b9b0f90a42.png",
+    "static/media/git.png": "/personal-website/static/media/git.299bbdfff294259dab75.png",
+    "static/media/js.png": "/personal-website/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/personal-website/index.html",
-    "main.e54aaff5.css.map": "/personal-website/static/css/main.e54aaff5.css.map",
-    "main.832ce9bd.js.map": "/personal-website/static/js/main.832ce9bd.js.map",
+    "main.f972344c.css.map": "/personal-website/static/css/main.f972344c.css.map",
+    "main.249e67f5.js.map": "/personal-website/static/js/main.249e67f5.js.map",
     "787.1d583568.chunk.js.map": "/personal-website/static/js/787.1d583568.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e54aaff5.css",
-    "static/js/main.832ce9bd.js"
+    "static/css/main.f972344c.css",
+    "static/js/main.249e67f5.js"
   ]
 }
