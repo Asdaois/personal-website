@@ -1,17 +1,17 @@
 import React from 'react'
 
 type Props = {
-  skillName: string,
+  displayName: string,
   imageUrl: string
 }
 
-const Skill = ({ skillName, imageUrl }: Props) => {
+const Skill = ({ displayName, imageUrl }: Props) => {
   return (
     <div className='relative flex justify-center h-24 w-24 group'>
-      <div className='z-10  self-center text-transparent transition-all ease-in group-hover:text-slate-800 group-hover:scale-125 '>
-        <strong className='uppercase'>{skillName}</strong>
+      <div className='z-10  self-center text-transparent transition-all ease-in group-hover:text-white group-hover:scale-125 '>
+        <strong className='uppercase'>{displayName}</strong>
       </div>
-      <img className='object-contain object-center w-24 h-24 rounded transition-all ease-in absolute group-hover:blur-sm' src={imageUrl} />
+      <img className='object-contain object-center h-24 rounded transition-all ease-in absolute group-hover:blur-sm group-hover:opacity-50' src={imageUrl} />
     </div>
   )
 }
