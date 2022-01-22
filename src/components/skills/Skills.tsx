@@ -7,11 +7,11 @@ type Props = {
 
 const Skills = ({ displayName, children }: Props) => {
   return (
-    <div className='md:flex w-full py-8 items-center gap-4 h-full bg-gray-900 text-slate-300 rounded-xl shadow-md hover:drop-shadow-2xl hover:shadow-white'>
+    <div className='gap-4 items-center py-8 w-full h-full bg-gray-900 rounded-xl shadow-md md:flex text-slate-300 hover:drop-shadow-2xl hover:shadow-white'>
       <div className='min-w-[200px] flex flex-col items-center text-6xl md:text-4xl h-full'>
-        <span className='grow-full flex-grow'>{displayName}</span>
+        <span className='flex-grow grow-full'>{displayName}</span>
       </div>
-      <div className='flex gap-8 flex-wrap p-4 justify-center md:justify-start'>
+      <div className='flex flex-wrap gap-8 justify-center p-4 md:justify-start'>
         {children}
       </div>
     </div>
