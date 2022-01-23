@@ -1,4 +1,5 @@
 import React from 'react'
+import Container from '../container'
 
 type Props = {
   displayName: string,
@@ -7,14 +8,14 @@ type Props = {
 
 const Skills = ({ displayName, children }: Props) => {
   return (
-    <div className='gap-4 items-center py-8 w-full h-full bg-gray-900 rounded-xl shadow-md md:flex text-slate-300 hover:drop-shadow-2xl hover:shadow-white'>
+    <Container className='gap-4 items-center md:flex text-slate-300'>
       <div className='min-w-[200px] flex flex-col items-center text-6xl md:text-4xl h-full'>
         <span className='flex-grow grow-full'>{displayName}</span>
       </div>
       <div className='flex flex-wrap gap-8 justify-center p-4 md:justify-start'>
         {children}
       </div>
-    </div>
+    </Container>
   )
 }
 

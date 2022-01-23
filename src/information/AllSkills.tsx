@@ -30,6 +30,7 @@ const AllSkills = () => {
         <Skill displayName='jest' imageUrl={otherImages.jest} />
         <Skill displayName='npm' imageUrl={otherImages.npm} />
         <Skill displayName='webpack' imageUrl={otherImages.webpack} />
+        <Skill displayName='typescript' imageUrl={otherImages.typescript} />
       </Skills>
       </div>)
 }

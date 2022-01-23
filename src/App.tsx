@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="bg-gray-700 overflow-clip">
       <NavBarInfo />
-      <div className='flex relative flex-col gap-12 p-8 font-sans '>
+      <div className='flex relative flex-col gap-12 p-8 font-sans'>
         <Presentation />
         <AllSkills />
       </div >

@@ -19,9 +19,10 @@ import heroku from './other/heroku.png'
 import jest from './other/jest.png'
 import npm from './other/npm.png'
 import webpack from './other/webpack.png'
+import typescript from './other/typescript.png'
 
 export const frontendImages = { html, css, js, nextjs, react, redux, tailwind }
 
 export const backendImages = { express, firebase, mongodb, mongoose, nodejs, passportjs }
 
-export const otherImages = { git, github, heroku, jest, npm, webpack }
+export const otherImages = { git, github, heroku, jest, npm, webpack, typescript }
