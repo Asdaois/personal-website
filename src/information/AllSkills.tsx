@@ -5,7 +5,8 @@ import Skill from '../components/skill'
 import Skills from '../components/skills'
 
 const AllSkills = () => {
-  return (<div className='flex flex-col gap-12' id='skills'>
+  return (
+    <div className='flex flex-col gap-12' id='skills'>
       <Skills displayName='Frontend'>
         <Skill displayName='html' imageUrl={frontendImages.html} />
         <Skill displayName='css' imageUrl={frontendImages.css} />
@@ -32,7 +33,8 @@ const AllSkills = () => {
         <Skill displayName='webpack' imageUrl={otherImages.webpack} />
         <Skill displayName='typescript' imageUrl={otherImages.typescript} />
       </Skills>
-      </div>)
+    </div>
+  )
 }
 
 export default AllSkills

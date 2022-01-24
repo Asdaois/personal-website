@@ -7,9 +7,9 @@ type Props = {
 
 const Container = ({ children, className }: Props) => {
   return (
-    <div className={'w-full py-2 h-full bg-gray-900 rounded-xl shadow-md text-slate-300 hover:drop-shadow-2xl hover:shadow-white transition-all ' + className}>
+    <section className={'w-full py-2 h-full bg-gray-900 rounded-xl shadow-md text-slate-300 hover:drop-shadow-2xl hover:shadow-white transition-all ' + className}>
       {children}
-    </div>
+    </section>
   )
 }
 export default Container
