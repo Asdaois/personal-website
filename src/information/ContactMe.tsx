@@ -46,7 +46,7 @@ const ContactMe = () => {
           placeholder='Message'
         ></textarea>
 
-        <input type='submit' value='Send Message' className='px-4 py-2 bg-blue-700 rounded-lg ' />
+        <input type='submit' value='Send Message' className='px-4 py-2 bg-blue-700 rounded-lg hover:cursor-pointer hover:bg-blue-600 ' />
       </form>
     </section>
   )
