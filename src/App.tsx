@@ -1,15 +1,15 @@
-import React from 'react'
 import About from './information/About'
 import AllSkills from './information/AllSkills'
 import ContactMe from './information/ContactMe'
 import NavBarInfo from './information/NavBarInfo'
 import Presentation from './information/Presentation'
+import React from 'react'
 
 const App = () => {
   return (
-    <div className='pt-4 bg-gray-700 overflow-clip'>
+    <div className='pt-4 bg-gray-700 overflow-clip flex flex-col'>
       <NavBarInfo />
-      <div className='flex relative flex-col gap-12 p-8 font-sans'>
+      <div className='flex flex-col  gap-12 p-8 font-sans container mx-auto'>
         <Presentation />
         <AllSkills />
       </div>

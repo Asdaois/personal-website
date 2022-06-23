@@ -1,4 +1,5 @@
 import React from 'react'
+import { profile } from '../assets'
 
 const Presentation = () => {
   return (
@@ -13,7 +14,7 @@ const Presentation = () => {
           <li>Interested in participating in open-source projects</li>
         </ul>
       </div>
-      <img className='rounded-xl' src='http://placekitten.com/600/400' />
+      <img className='rounded-xl object-contain h-96 w-96 mx-auto' src={profile.pic} />
     </header>
   )
 }
