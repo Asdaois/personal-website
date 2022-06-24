@@ -1,3 +1,4 @@
+import aboutMe from './data/about-me.json'
 import css from './frontend/css3.png'
 import express from './backend/express.png'
 import firebase from './backend/firebase.png'
@@ -42,3 +43,5 @@ export const otherImages = {
 }
 
 export const profile = { pic }
+
+export const data = { aboutMe }
